@@ -1,0 +1,483 @@
+# InterCase — налаштування
+# ring-radius: відстань від кейса до 8 предметів
+ring-radius: 3.6
+# force-animation: -1 = випадкова; 0 мечі, 1 моби, 2 вихор часу, 3 рулетка (для тесту)
+force-animation: -1
+
+# У кожного кейса РІВНО 8 нагород. chance — вага (шанс), чим більше, тим частіше.
+# {player} замінюється на нік гравця. Команди виконує консоль.
+# Остання нагорода кожного кейса — привілегія (потрібен LuckPerms і група з такою назвою).
+cases:
+  "1":
+    name: "&7&l✦ Секунда"
+    rewards:
+      - name: "&fЗалізо x12"
+        icon: IRON_INGOT
+        chance: 34
+        commands:
+          - "give {player} iron_ingot 12"
+      - name: "&fЗолото x9"
+        icon: GOLD_INGOT
+        chance: 24
+        commands:
+          - "give {player} gold_ingot 9"
+      - name: "&fСмарагди x6"
+        icon: EMERALD
+        chance: 16
+        commands:
+          - "give {player} emerald 6"
+      - name: "&fАлмази x2"
+        icon: DIAMOND
+        chance: 11
+        commands:
+          - "give {player} diamond 2"
+      - name: "&fДосвід 200 оч."
+        icon: EXPERIENCE_BOTTLE
+        chance: 7
+        commands:
+          - "xp add {player} 200 points"
+      - name: "&fЗолоті яблука x1"
+        icon: GOLDEN_APPLE
+        chance: 4.5
+        commands:
+          - "give {player} golden_apple 1"
+      - name: "&fТотеми безсмертя x1"
+        icon: TOTEM_OF_UNDYING
+        chance: 2.7
+        commands:
+          - "give {player} totem_of_undying 1"
+      - name: "&6&lПривілегія &e&lTick"
+        icon: NETHER_STAR
+        chance: 0.8
+        commands:
+          - "lp user {player} parent add tick"
+  "2":
+    name: "&a&l✦ Хвилина"
+    rewards:
+      - name: "&fЗалізо x16"
+        icon: IRON_INGOT
+        chance: 34
+        commands:
+          - "give {player} iron_ingot 16"
+      - name: "&fЗолото x12"
+        icon: GOLD_INGOT
+        chance: 24
+        commands:
+          - "give {player} gold_ingot 12"
+      - name: "&fСмарагди x8"
+        icon: EMERALD
+        chance: 16
+        commands:
+          - "give {player} emerald 8"
+      - name: "&fАлмази x3"
+        icon: DIAMOND
+        chance: 11
+        commands:
+          - "give {player} diamond 3"
+      - name: "&fДосвід 400 оч."
+        icon: EXPERIENCE_BOTTLE
+        chance: 7
+        commands:
+          - "xp add {player} 400 points"
+      - name: "&fЗолоті яблука x2"
+        icon: GOLDEN_APPLE
+        chance: 4.5
+        commands:
+          - "give {player} golden_apple 2"
+      - name: "&fТотеми безсмертя x1"
+        icon: TOTEM_OF_UNDYING
+        chance: 2.7
+        commands:
+          - "give {player} totem_of_undying 1"
+      - name: "&6&lПривілегія &e&lPulse"
+        icon: NETHER_STAR
+        chance: 0.8
+        commands:
+          - "lp user {player} parent add pulse"
+  "3":
+    name: "&2&l✦ Година"
+    rewards:
+      - name: "&fЗалізо x20"
+        icon: IRON_INGOT
+        chance: 34
+        commands:
+          - "give {player} iron_ingot 20"
+      - name: "&fЗолото x15"
+        icon: GOLD_INGOT
+        chance: 24
+        commands:
+          - "give {player} gold_ingot 15"
+      - name: "&fСмарагди x10"
+        icon: EMERALD
+        chance: 16
+        commands:
+          - "give {player} emerald 10"
+      - name: "&fАлмази x4"
+        icon: DIAMOND
+        chance: 11
+        commands:
+          - "give {player} diamond 4"
+      - name: "&fДосвід 600 оч."
+        icon: EXPERIENCE_BOTTLE
+        chance: 7
+        commands:
+          - "xp add {player} 600 points"
+      - name: "&fЗолоті яблука x3"
+        icon: GOLDEN_APPLE
+        chance: 4.5
+        commands:
+          - "give {player} golden_apple 3"
+      - name: "&fТотеми безсмертя x1"
+        icon: TOTEM_OF_UNDYING
+        chance: 2.7
+        commands:
+          - "give {player} totem_of_undying 1"
+      - name: "&6&lПривілегія &e&lChrono"
+        icon: NETHER_STAR
+        chance: 0.8
+        commands:
+          - "lp user {player} parent add chrono"
+  "4":
+    name: "&b&l✦ День"
+    rewards:
+      - name: "&fЗалізо x24"
+        icon: IRON_INGOT
+        chance: 34
+        commands:
+          - "give {player} iron_ingot 24"
+      - name: "&fЗолото x18"
+        icon: GOLD_INGOT
+        chance: 24
+        commands:
+          - "give {player} gold_ingot 18"
+      - name: "&fСмарагди x12"
+        icon: EMERALD
+        chance: 16
+        commands:
+          - "give {player} emerald 12"
+      - name: "&fАлмази x5"
+        icon: DIAMOND
+        chance: 11
+        commands:
+          - "give {player} diamond 5"
+      - name: "&fДосвід 800 оч."
+        icon: EXPERIENCE_BOTTLE
+        chance: 7
+        commands:
+          - "xp add {player} 800 points"
+      - name: "&fЗолоті яблука x4"
+        icon: GOLDEN_APPLE
+        chance: 4.5
+        commands:
+          - "give {player} golden_apple 4"
+      - name: "&fТотеми безсмертя x2"
+        icon: TOTEM_OF_UNDYING
+        chance: 2.7
+        commands:
+          - "give {player} totem_of_undying 2"
+      - name: "&6&lПривілегія &e&lEpoch"
+        icon: NETHER_STAR
+        chance: 0.8
+        commands:
+          - "lp user {player} parent add epoch"
+  "5":
+    name: "&3&l✦ Тиждень"
+    rewards:
+      - name: "&fЗалізо x28"
+        icon: IRON_INGOT
+        chance: 34
+        commands:
+          - "give {player} iron_ingot 28"
+      - name: "&fЗолото x21"
+        icon: GOLD_INGOT
+        chance: 24
+        commands:
+          - "give {player} gold_ingot 21"
+      - name: "&fСмарагди x14"
+        icon: EMERALD
+        chance: 16
+        commands:
+          - "give {player} emerald 14"
+      - name: "&fАлмази x6"
+        icon: DIAMOND
+        chance: 11
+        commands:
+          - "give {player} diamond 6"
+      - name: "&fДосвід 1000 оч."
+        icon: EXPERIENCE_BOTTLE
+        chance: 7
+        commands:
+          - "xp add {player} 1000 points"
+      - name: "&fЗачаровані яблука x2"
+        icon: ENCHANTED_GOLDEN_APPLE
+        chance: 4.5
+        commands:
+          - "give {player} enchanted_golden_apple 2"
+      - name: "&fТотеми безсмертя x2"
+        icon: TOTEM_OF_UNDYING
+        chance: 2.7
+        commands:
+          - "give {player} totem_of_undying 2"
+      - name: "&6&lПривілегія &e&lEra"
+        icon: NETHER_STAR
+        chance: 0.8
+        commands:
+          - "lp user {player} parent add era"
+  "6":
+    name: "&9&l✦ Місяць"
+    rewards:
+      - name: "&fЗалізо x32"
+        icon: IRON_INGOT
+        chance: 34
+        commands:
+          - "give {player} iron_ingot 32"
+      - name: "&fЗолото x24"
+        icon: GOLD_INGOT
+        chance: 24
+        commands:
+          - "give {player} gold_ingot 24"
+      - name: "&fСмарагди x16"
+        icon: EMERALD
+        chance: 16
+        commands:
+          - "give {player} emerald 16"
+      - name: "&fАлмази x7"
+        icon: DIAMOND
+        chance: 11
+        commands:
+          - "give {player} diamond 7"
+      - name: "&fДосвід 1200 оч."
+        icon: EXPERIENCE_BOTTLE
+        chance: 7
+        commands:
+          - "xp add {player} 1200 points"
+      - name: "&fЗачаровані яблука x3"
+        icon: ENCHANTED_GOLDEN_APPLE
+        chance: 4.5
+        commands:
+          - "give {player} enchanted_golden_apple 3"
+      - name: "&fТотеми безсмертя x2"
+        icon: TOTEM_OF_UNDYING
+        chance: 2.7
+        commands:
+          - "give {player} totem_of_undying 2"
+      - name: "&6&lПривілегія &e&lEon"
+        icon: NETHER_STAR
+        chance: 0.8
+        commands:
+          - "lp user {player} parent add eon"
+  "7":
+    name: "&d&l✦ Рік"
+    rewards:
+      - name: "&fЗалізо x36"
+        icon: IRON_INGOT
+        chance: 34
+        commands:
+          - "give {player} iron_ingot 36"
+      - name: "&fЗолото x27"
+        icon: GOLD_INGOT
+        chance: 24
+        commands:
+          - "give {player} gold_ingot 27"
+      - name: "&fСмарагди x18"
+        icon: EMERALD
+        chance: 16
+        commands:
+          - "give {player} emerald 18"
+      - name: "&fАлмази x8"
+        icon: DIAMOND
+        chance: 11
+        commands:
+          - "give {player} diamond 8"
+      - name: "&fДосвід 1400 оч."
+        icon: EXPERIENCE_BOTTLE
+        chance: 7
+        commands:
+          - "xp add {player} 1400 points"
+      - name: "&fЗачаровані яблука x4"
+        icon: ENCHANTED_GOLDEN_APPLE
+        chance: 4.5
+        commands:
+          - "give {player} enchanted_golden_apple 4"
+      - name: "&fТотеми безсмертя x2"
+        icon: TOTEM_OF_UNDYING
+        chance: 2.7
+        commands:
+          - "give {player} totem_of_undying 2"
+      - name: "&6&lПривілегія &e&lParadox"
+        icon: NETHER_STAR
+        chance: 0.8
+        commands:
+          - "lp user {player} parent add paradox"
+  "8":
+    name: "&5&l✦ Десятиліття"
+    rewards:
+      - name: "&fЗалізо x40"
+        icon: IRON_INGOT
+        chance: 34
+        commands:
+          - "give {player} iron_ingot 40"
+      - name: "&fЗолото x30"
+        icon: GOLD_INGOT
+        chance: 24
+        commands:
+          - "give {player} gold_ingot 30"
+      - name: "&fСмарагди x20"
+        icon: EMERALD
+        chance: 16
+        commands:
+          - "give {player} emerald 20"
+      - name: "&fАлмази x9"
+        icon: DIAMOND
+        chance: 11
+        commands:
+          - "give {player} diamond 9"
+      - name: "&fДосвід 1600 оч."
+        icon: EXPERIENCE_BOTTLE
+        chance: 7
+        commands:
+          - "xp add {player} 1600 points"
+      - name: "&fЗачаровані яблука x5"
+        icon: ENCHANTED_GOLDEN_APPLE
+        chance: 4.5
+        commands:
+          - "give {player} enchanted_golden_apple 5"
+      - name: "&fТотеми безсмертя x3"
+        icon: TOTEM_OF_UNDYING
+        chance: 2.7
+        commands:
+          - "give {player} totem_of_undying 3"
+      - name: "&6&lПривілегія &e&lTemporal"
+        icon: NETHER_STAR
+        chance: 0.8
+        commands:
+          - "lp user {player} parent add temporal"
+  "9":
+    name: "&6&l✦ Століття"
+    rewards:
+      - name: "&fЗалізо x44"
+        icon: IRON_INGOT
+        chance: 34
+        commands:
+          - "give {player} iron_ingot 44"
+      - name: "&fЗолото x33"
+        icon: GOLD_INGOT
+        chance: 24
+        commands:
+          - "give {player} gold_ingot 33"
+      - name: "&fСмарагди x22"
+        icon: EMERALD
+        chance: 16
+        commands:
+          - "give {player} emerald 22"
+      - name: "&fАлмази x10"
+        icon: DIAMOND
+        chance: 11
+        commands:
+          - "give {player} diamond 10"
+      - name: "&fДосвід 1800 оч."
+        icon: EXPERIENCE_BOTTLE
+        chance: 7
+        commands:
+          - "xp add {player} 1800 points"
+      - name: "&fЗачаровані яблука x6"
+        icon: ENCHANTED_GOLDEN_APPLE
+        chance: 4.5
+        commands:
+          - "give {player} enchanted_golden_apple 6"
+      - name: "&fТотеми безсмертя x3"
+        icon: TOTEM_OF_UNDYING
+        chance: 2.7
+        commands:
+          - "give {player} totem_of_undying 3"
+      - name: "&6&lПривілегія &e&lZenith"
+        icon: NETHER_STAR
+        chance: 0.8
+        commands:
+          - "lp user {player} parent add zenith"
+  "10":
+    name: "&c&l✦ Тисячоліття"
+    rewards:
+      - name: "&fЗалізо x48"
+        icon: IRON_INGOT
+        chance: 34
+        commands:
+          - "give {player} iron_ingot 48"
+      - name: "&fЗолото x36"
+        icon: GOLD_INGOT
+        chance: 24
+        commands:
+          - "give {player} gold_ingot 36"
+      - name: "&fСмарагди x24"
+        icon: EMERALD
+        chance: 16
+        commands:
+          - "give {player} emerald 24"
+      - name: "&fАлмази x11"
+        icon: DIAMOND
+        chance: 11
+        commands:
+          - "give {player} diamond 11"
+      - name: "&fДосвід 2000 оч."
+        icon: EXPERIENCE_BOTTLE
+        chance: 7
+        commands:
+          - "xp add {player} 2000 points"
+      - name: "&fЗачаровані яблука x7"
+        icon: ENCHANTED_GOLDEN_APPLE
+        chance: 4.5
+        commands:
+          - "give {player} enchanted_golden_apple 7"
+      - name: "&fТотеми безсмертя x3"
+        icon: TOTEM_OF_UNDYING
+        chance: 2.7
+        commands:
+          - "give {player} totem_of_undying 3"
+      - name: "&6&lПривілегія &e&lEternal"
+        icon: NETHER_STAR
+        chance: 0.8
+        commands:
+          - "lp user {player} parent add eternal"
+  "11":
+    name: "&4&l✦ Вічність"
+    rewards:
+      - name: "&fЗалізо x52"
+        icon: IRON_INGOT
+        chance: 34
+        commands:
+          - "give {player} iron_ingot 52"
+      - name: "&fЗолото x39"
+        icon: GOLD_INGOT
+        chance: 24
+        commands:
+          - "give {player} gold_ingot 39"
+      - name: "&fСмарагди x26"
+        icon: EMERALD
+        chance: 16
+        commands:
+          - "give {player} emerald 26"
+      - name: "&fАлмази x12"
+        icon: DIAMOND
+        chance: 11
+        commands:
+          - "give {player} diamond 12"
+      - name: "&fДосвід 2200 оч."
+        icon: EXPERIENCE_BOTTLE
+        chance: 7
+        commands:
+          - "xp add {player} 2200 points"
+      - name: "&fЗачаровані яблука x8"
+        icon: ENCHANTED_GOLDEN_APPLE
+        chance: 4.5
+        commands:
+          - "give {player} enchanted_golden_apple 8"
+      - name: "&fТотеми безсмертя x3"
+        icon: TOTEM_OF_UNDYING
+        chance: 2.7
+        commands:
+          - "give {player} totem_of_undying 3"
+      - name: "&6&lПривілегія &e&lInfinity"
+        icon: NETHER_STAR
+        chance: 0.8
+        commands:
+          - "lp user {player} parent add infinity"

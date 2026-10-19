@@ -1,0 +1,12 @@
+name: InterCase
+main: dev.intercase.InterCase
+version: 1.0
+api-version: '1.21'
+description: InterTime donate cases with random animations
+commands:
+  case:
+    description: InterCase admin command
+    aliases: [cases]
+permissions:
+  intercase.admin:
+    default: op
